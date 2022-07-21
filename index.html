@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Macondo&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Grost &mdash; Your all-in-one website for personal needs</title>
+
+		<script
+			src="https://kit.fontawesome.com/21df5b0468.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="nav">
+				<div class="nav__logo">
+					<img src="img/logo.png" alt="logo" class="nav__logo-main" />
+					<h3 class="nav__name"><span class="nav__letter">G</span>rost</h3>
+				</div>
+				<div class="search">
+					<div class="search__field" >
+						<input
+							type="text"
+							class="search__input"
+							placeholder="Search here"
+						/>
+						<div class="search__icon">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</div>
+					</div>
+					<div class="nav__dropdown">
+						<select name="" class="nav__item--dropdown">
+							<option
+								value=""
+								disabled
+								selected 
+								hidden
+								class="nav__item--dropdown-list"
+							>
+								Categories
+							</option>
+							<option value="1" class="nav__item--dropdown-list">
+								Groceries
+							</option>
+							<option value="2" class="nav__item--dropdown-list">Frozens</option>
+							<option value="3" class="nav__item--dropdown-list">Drinks</option>
+							<option value="4" class="nav__item--dropdown-list">Bakery</option>
+							<option value="5" class="nav__item--dropdown-list">
+								Stationery
+							</option>
+							<option value="6" class="nav__item--dropdown-list">
+								Cleaning
+							</option>
+							<option value="7" class="nav__item--dropdown-list">Others</option>
+						</select>
+					</div>
+				</div>
+
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="nav__link"><i class="fa-solid fa-house"></i> <span class="nav__text">home</span></a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#" class="nav__link cart"
+							>
+							<div class="cart__badge">0</div><i class="fa-solid fa-cart-shopping"></i
+						><span class="nav__text">cart</span></a>
+						
+							<ul class="cart__menu">
+								<div class="cart__heading">
+									<div class="cart_tag-1">&nbsp;</div>
+									<div class="cart__tag-2">Qty</div>
+									<div class="cart__tag-3">Price</div>
+								    <div class="cart__tag-4">Total</div>
+
+								</div>
+
+								<ul class="cart__empty">
+									<!-- <li class="cart__list">
+										<img src="img/vegetables.png" alt="#" class="cart__image">
+										<div class="cart__counter">
+											<button class="cart__control decrement">-</button>
+										<span class="cart__root"></span>
+										<button class="cart__control increment">+</button>
+										</div>
+									<div class="cart__price">₦0.00</div>
+									<div class="cart__sum">₦0.00</div>
+									<i class="fa-solid fa-xmark"></i>
+									</li>
+	
+									
+									<li class="cart__list">
+										<img src="img/vegetables.png" alt="#" class="cart__image">
+										<div class="cart__counter">
+											<button class="cart__control decrement">-</button>
+										<span class="cart__root"></span>
+										<button class="cart__control increment">+</button>
+										</div>
+									<div class="cart__price">₦0.00</div>
+									<div class="cart__sum">₦0.00</div>
+									<i class="fa-solid fa-xmark"></i>
+									</li> -->
+								</ul>
+
+								
+								
+								
+
+								<div class="cart__button">checkout
+									<span class="cart__checkout">(₦0.00)</span>
+								</div>
+							</ul>	
+					
+					</li> 
+
+					<li class="nav__item">
+						<button class="nav__button">login</button>
+					</li>
+				</ul>
+			</nav>
+			<div class="main">
+				<!-- <div class="main__item">
+					<div class="main__layout">
+						<img src="img/vegetables.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">vegetables</div>
+					<div class="main__price">₦100.00</div>
+				</div>
+				
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/spaghetti.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">spaghetti</div>
+					<div class="main__price">₦125.00</div>
+				</div>
+				
+				
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/pastry.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">pastry</div>
+					<div class="main__price">₦50.00</div>
+				</div>
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/wine.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">wine</div>
+					<div class="main__price">₦400.00</div>
+				</div>
+				
+
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/pots.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">pots</div>
+					<div class="main__price">₦125.00</div>
+				</div>
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/snacks.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">snacks</div>
+					<div class="main__price">₦15.00</div>
+				</div>
+			
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/frozen.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">frozen</div>
+					<div class="main__price">₦150.00</div>
+				</div>
+
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/cleaning.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">cleaning</div>
+					<div class="main__price">₦50.00</div>
+				</div>
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/baking.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">baking</div>
+					<div class="main__price">₦250.00</div>
+				</div>
+				
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/beverages.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">beverages</div>
+					<div class="main__price">₦25.00</div>
+				</div>
+
+				<div class="main__item">
+					<div class="main__layout">   
+						<img src="img/stationery.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">Stationery</div>
+					<div class="main__price">₦25.00</div>
+				</div>
+
+				<div class="main__item">
+					<div class="main__layout">
+						<img src="img/wine.png" alt="#" class="main__img" />
+					</div>
+					<div class="main__add">add cart</div>
+					<div class="main__name">wine</div>
+					<div class="main__price">₦25.00</div>
+				</div> -->
+				
+			</div>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>

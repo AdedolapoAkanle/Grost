@@ -1,0 +1,33 @@
+.fa-solid {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.fa-magnifying-glass {
+    font-size: 1rem;
+    color: #3a4750;
+}
+
+.fa-store {
+    font-size: 2.4rem;
+    color: #3f3f3f;
+     
+}
+
+.fa-xmark {
+    position: absolute;
+    right: 25px;
+    font-size: .7rem;
+    color: #d9dad7;
+    cursor: pointer;
+
+    @media only screen and (max-width: 1400px) {
+        position: absolute;
+        right: 5px;
+      }
+    @media only screen and (max-width: 900px) {
+       position: absolute;
+       right: 5px;
+     }
+}
